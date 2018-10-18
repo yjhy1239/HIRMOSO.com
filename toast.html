@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>温馨提示</title>
+</head>
+<style>
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	.text-center{
+		text-align: center;
+	}
+	h1,h4{
+		font-family: SimSun;
+		padding: 10px 0px;
+		color: #040505;
+	}
+</style>
+<body class="root">
+	<div class="text-center toast">
+		<h1 style="text-transform: uppercase">HIRMOSO</h1>
+		<h4 style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif">网站升级中</h4>
+		<h4 style="text-transform: uppercase">WEBSITE IS UNDER RECONSTRUCTION</h4>
+	</div>
+</body>
+<script charset="utf-8" src="../js/jquery-3.3.1.min.js"></script>
+<script>
+$(function () {
+	var height = $(window).height()/3+'px';
+	$('.toast').css('margin-top',height)
+})
+</script>
+</html>
